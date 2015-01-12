@@ -5,41 +5,41 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://upton.github.io/</loc>
-<lastmod>2015-01-12T19:10:35-00:00</lastmod>
+<lastmod>2015-01-12T19:16:41-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://upton.github.io/archives.html</loc>
-<lastmod>2015-01-12T19:10:35-00:00</lastmod>
+<lastmod>2015-01-12T19:16:41-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://upton.github.io/tags.html</loc>
-<lastmod>2015-01-12T19:10:35-00:00</lastmod>
+<lastmod>2015-01-12T19:16:41-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://upton.github.io/categories.html</loc>
-<lastmod>2015-01-12T19:10:35-00:00</lastmod>
+<lastmod>2015-01-12T19:16:41-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://upton.github.io/pages/2015/01/12/thinkpad-migrate-to-macbook/</loc>
+<loc>http://upton.github.io/2015/01/12/thinkpad-migrate-to-macbook.html</loc>
 <lastmod>2015-01-12T00:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://upton.github.io/pages/2015/01/11/hello/</loc>
+<loc>http://upton.github.io/2015/01/11/hello.html</loc>
 <lastmod>2015-01-11T00:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
@@ -55,6 +55,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://upton.github.io/category/start.html</loc>
 <lastmod>2015-01-11T00:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://upton.github.io/tag/mac.html</loc>
+<lastmod>2015-01-12T00:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://upton.github.io/tag/thinkpad.html</loc>
+<lastmod>2015-01-12T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
