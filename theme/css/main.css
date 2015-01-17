@@ -10,7 +10,7 @@
  */
 body {
   color: #333;
-  font-size: 15px;
+  font-size: 17px;
   font-family: "Lucida Sans", sans-serif;
   line-height: 22.5px;
   margin: 0;
@@ -38,7 +38,7 @@ h2 {
 h3 {
   font-family: "Microsoft YaHei", Overlock, sans-serif;
   font-weight: bold;
-  font-size: 15.7464px;
+  font-size: 17px;
   color: #113D8B;
   line-height: 31.4928px; }
 
@@ -145,7 +145,7 @@ img.left, figure.left {
   margin: 0 auto;
   padding: 2.5em 0 0 0; }
   #banner h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-family: 'Overlock';
     line-height: 1;
     text-align: center; }

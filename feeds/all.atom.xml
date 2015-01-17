@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>阿普顿的随笔</title><link href="http://upton.github.io/" rel="alternate"></link><link href="http://upton.github.io/feeds/all.atom.xml" rel="self"></link><id>http://upton.github.io/</id><updated>2015-01-12T00:00:00+08:00</updated><entry><title>从Thinkpad移情别恋到Macbook的感触</title><link href="http://upton.github.io/2015/01/12/thinkpad-migrate-to-macbook.html" rel="alternate"></link><updated>2015-01-12T00:00:00+08:00</updated><author><name>Upton</name></author><id>tag:upton.github.io,2015-01-12:2015/01/12/thinkpad-migrate-to-macbook.html</id><summary type="html">&lt;p&gt;从Thinkpad迁移到macbook有一端时间了，先是从完全不能适应，然后到逐步深入认识，如同恋爱一般，从生疏到熟悉，从牵手到上床XXOO，这种感觉是奇妙的。&lt;/p&gt;
+&lt;h3&gt;为什么从Thinkpad移情别恋到MacBook？&lt;/h3&gt;
+&lt;p&gt;一个月前的某个周末晚上，对着相伴多年的Thinkpad撸Python，在某个环境设置上始终无法顺畅解决，总会有奇奇怪怪的问题，一怒之下就决定休了她，第二天去迎娶白富美——RMBP（13英寸Retina显示屏的macbook pro，装配256GB SSD），冲冠一怒为Python呀。&lt;/p&gt;
+&lt;h3&gt;让人欲罢不能的身材和绝活？&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;视网膜显示屏，看惯了这漂亮的脸蛋，绝对无法直视曾经的黄脸婆；&lt;/li&gt;
+&lt;li&gt;全铝合金的外壳，标志性的Logo灯，这S型的身材材保准让人流连忘返；&lt;/li&gt;
+&lt;li&gt;原生Unix系统内核，默认Python环境，开发和部署软件系统再不会遇到奇奇怪怪的问题，这算得上是绝活；&lt;/li&gt;
+&lt;li&gt;支持多点触摸的触摸板，简直就是MacBook绝配。对着这美妙的身材，迷人的脸庞，你还忍得住不动手，还不赶紧上下其手，使出来各种姿势，哦不，是手势，让她爽快起来。键盘和触摸板靠的近，效率高，很快就可以让她达到高潮。初学手势不太容易掌握，勤加练习后便可以使出一招制胜的手活，说快了，是手势哈。&lt;/li&gt;
+&lt;li&gt;只要不一直跑大型应用程序，不上高难度的姿势，她可以一次服侍你10个小时，一次爽个够，年轻就是本钱呀；&lt;/li&gt;
+&lt;li&gt;得益于Gatekeeper的安全机制，Mac上的软件制作都很精细，普遍质量较高，且少有恶意软件和广告，可以让人专注于做爱做的事情。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;如何调教这白富美？&lt;/h3&gt;
+&lt;p&gt;基因再好的美人胚子也得好好打扮，调教调教，这样才能配合默契，尽享欢乐。  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原生terminal太难用，得好好改造一下：&lt;a href="http://iterm2.com/"&gt;iTerm2&lt;/a&gt; + &lt;a href="http://sourabhbajaj.com/mac-setup/iTerm/zsh.html"&gt;zsh&lt;/a&gt; + &lt;a href="https://github.com/robbyrussell/oh-my-zsh"&gt;oh-my-zsh&lt;/a&gt;，从此，美人不仅秀外而其慧中，更懂我（独立文章，待写）；&lt;/li&gt;
+&lt;li&gt;抛弃Spotlight，拥抱月光宝盒&lt;a href="http://www.alfredapp.com/"&gt;Alfred&lt;/a&gt;——搜索、打开应用程序、翻译、发微薄，只要你想要，随时随地，立马满足你（独立文章，待写）；&lt;/li&gt;
+&lt;li&gt;羡慕人家Ubuntu有&lt;strong&gt;apt-get&lt;/strong&gt;、CentOS有&lt;strong&gt;yum&lt;/strong&gt;这样的强大package管理工具，咋家美人也要有&lt;a href="http://brew.sh/"&gt;homebrew&lt;/a&gt;这样的哆啦A梦的口袋，想要啥就有啥（独立文章，待写）；&lt;/li&gt;
+&lt;li&gt;Mac上的触摸板和鼠标的滚动方向是同步的，不能单独设置，对于触摸板而言更喜欢自然的滚动方式，鼠标则喜欢用原来的滚动习惯，方向冲突，怎么办？幸好有&lt;a href="https://pilotmoon.com/scrollreverser/"&gt;scroll reverser&lt;/a&gt;，想尝试69式，那都不是事儿；&lt;/li&gt;
+&lt;li&gt;有时候你你还忘不了前任的快捷姿势，哦不，是快捷方式，或者想改造一下F1~F12的执行方式，甚至单独设置F1~F6是标准执行方式，F7~F12是播放和声音的控制键，有了&lt;a href="https://pqrs.org/osx/karabiner/"&gt;karabiner&lt;/a&gt;，怎么爽就怎么设置。&lt;/li&gt;
+&lt;li&gt;原生的Finder好老土，素颜是没有办法见客的，幸好找到&lt;a href="https://www.trankynam.com/xtrafinder/"&gt;xtraFinder&lt;/a&gt;，立马光鲜亮丽，好看又好用——多标签打开文件夹、彩色的左侧图标、剪切复制粘贴、复制当前路径、在当前路径打开terminal、向上一级、显示隐藏文件、新建文件等；&lt;/li&gt;
+&lt;li&gt;美人回家要卸妆，是不想残留一下粉底之类的在脸上过夜的。有洁癖的朋友删除app之后就用得上&lt;a href="http://onnati.net/apptrap/"&gt;AppTrap&lt;/a&gt;了，自动帮你清理app遗留下的应用文件；&lt;/li&gt;
+&lt;li&gt;前任Thinkpad上有好用免费的xshell管理ssh服务器连接，现在的白富美很傲娇，嘟哝道：“伦家的terminal直接就有ssh命令，用那些乌七八糟的作甚？”，但是每次亲热都要折腾账号密码，很影响激情，还有一个办法是copy证书方式免密码登陆，也很麻烦呀。市面上有secureCRT这样收费软件可以管理ssh服务器连接，但是就没有办法用到上面秀外慧中的iTerm2了，鱼和熊掌不可兼得？NO！自己动手丰衣足食，俺自造一个逍遥椅哈，&lt;a href="https://github.com/upton/ssh-auto-login-manage"&gt;ssh-auto-login-manage&lt;/a&gt;和&lt;a href="https://github.com/upton/iSSH"&gt;iSSH&lt;/a&gt;两款可选，至此激情与效率并存；&lt;/li&gt;
+&lt;li&gt;更多敏感点等着日后慢慢调教~~&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;无法接受的公主病？&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;出生高贵的她总是给人冷冰冰的感觉，特别是冬天的时候，刚开机，铝合金的外壳很冰凉，不过随着应用程序的启动，以及你的动作的加剧，她也会脸红心跳，体温上升，据说到了夏天体温更高，让人不敢轻易触碰呀。女人就是难以捉摸呀，时而冷若冰霜，时而热情似火。&lt;/li&gt;
+&lt;li&gt;从小娇生惯养的她有时也会耍小脾气，输入法的中英文基本上的全局的，脾气习性无法揣摩，经常切换应用后敲了两下键盘才发现输入法不对，很烦恼。貌似可以用&lt;a href="https://pqrs.org/osx/ShowyEdge/index.html.en"&gt;ShowyEdge&lt;/a&gt;来调剂一下，能快速识别出当前是在用什么输入法。&lt;/li&gt;
+&lt;li&gt;键盘手感太差，估计是太瘦的缘故，敲起来完全没有感觉，和Thinkpad的的经典键盘比起来差太远了，逞论俺的Cherry了；&lt;/li&gt;
+&lt;li&gt;公主就是公主，是从来不用网银的，所以在Mac上就原生不支持网银，要想用找你黄脸婆去。其实不推荐用虚拟机的方式弄个windows来兼容，现在支付宝这么强大，还满足不了你？&lt;/li&gt;
+&lt;li&gt;慢慢适应吧，爱屋及乌，或许日后会发现这些缺点也是可以适应的~~&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="mac"></category><category term="thinkpad"></category></entry></feed>
