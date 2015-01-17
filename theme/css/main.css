@@ -10,9 +10,9 @@
  */
 body {
   color: #333;
-  font-size: 17px;
+  font-size: 18px;
   font-family: "Lucida Sans", sans-serif;
-  line-height: 22.5px;
+  line-height: 26px;
   margin: 0;
   padding: 0;
   text-align: left; }
@@ -65,6 +65,9 @@ h6 {
 
 hr {
   border: 2px solid #eeeeee; }
+
+li {
+  line-height: 26px; }
 
 strong, b {
   font-weight: bold; }
@@ -143,11 +146,12 @@ img.left, figure.left {
 
 #banner {
   margin: 0 auto;
-  padding: 2.5em 3em 0 0; }
+  padding: 2.5em 0 0 0; }
   #banner h1 {
     font-size: 2em;
     font-family: 'Overlock';
     line-height: 1;
+    padding: 0 3em 0 0; 
     text-align: center; }
     #banner h1 a:link, #banner h1 a:visited {
       color: #000305;
