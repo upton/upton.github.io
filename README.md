@@ -1,2 +1,2 @@
 # upton.github.io
-Upton's blog
+upton.github.io
