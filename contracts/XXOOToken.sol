@@ -118,13 +118,10 @@ contract Ownable {
     }
 }
 
-contract XXOO is StandardToken, Ownable {
+contract XXOOToken is StandardToken, Ownable {
     string  public name;
     string  public symbol;
     uint    public decimals;
-
-    event Issue(uint amount);
-    event Redeem(uint amount);
 
     constructor(string memory _name, string memory _symbol, uint _decimals, uint _totalSupply) public {
         name = _name;
@@ -132,29 +129,5 @@ contract XXOO is StandardToken, Ownable {
         decimals = _decimals;
         totalSupply = _totalSupply * (10 ** decimals);
         balances[msg.sender] = totalSupply;
-    }
-
-    // Issue a new amount of tokens.
-    // these tokens are deposited into the owner address
-    // @param amount Number of tokens to be issued
-    function issue(uint amount) public onlyOwner returns (bool) {
-        balances[owner] = balances[owner].add(amount);
-        totalSupply = totalSupply.add(amount);
-        emit Issue(amount);
-        emit Transfer(address(0), owner, amount);
-        return true;
-    }
-
-    // Redeem tokens.
-    // These tokens are withdrawn from the owner address
-    // if the balance must be enough to cover the redeem
-    // or the call will fail.
-    // @param amount Number of tokens to be redeem
-    function redeem(uint amount) public onlyOwner returns (bool){
-        totalSupply = totalSupply.sub(amount);
-        balances[owner] = balances[owner].sub(amount);
-        emit Redeem(amount);
-        emit Transfer(owner, address(0), amount);
-        return true;
     }
 }
