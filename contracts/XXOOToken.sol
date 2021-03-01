@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPLv3
-pragma solidity ^0.5.10;
+pragma solidity ^0.5.15;
 
 library SafeMath {
     function add(uint a, uint b) internal pure returns (uint) {
